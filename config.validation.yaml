@@ -1,0 +1,21 @@
+mode: full
+ua_partition: valid
+ua_validation_dir: data/unlp_shared_2023_validation
+
+model: gpt-4.1-mini
+llm_backend: litellm_router
+
+temperature: 0.0
+top_p: 0.1
+#reasoning_effort: low
+
+llm_timeout_seconds: 90
+agent: gec_single_prompt
+prompt_name: zero_shot_en
+
+num_threads: 20
+
+verbosity: false
+show_progress: true
+log_input_output: false
+start_index: 0
